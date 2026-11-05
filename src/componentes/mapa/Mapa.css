@@ -1,0 +1,41 @@
+.mapa-pagina {
+  padding: 16px;
+}
+
+/* Leaflet necesita una altura explicita, si no el mapa mide 0px */
+.mapa-contenedor {
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.mapa-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.mapa-boton {
+  padding: 6px 12px;
+  border: 1px solid #0d6efd;
+  border-radius: 6px;
+  background: #fff;
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.mapa-boton:hover {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.mapa-boton-limpiar {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.mapa-boton-limpiar:hover {
+  background: #dc3545;
+  color: #fff;
+}
